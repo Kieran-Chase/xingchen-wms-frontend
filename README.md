@@ -109,37 +109,6 @@ No static resource iot/manage/product/list
 
 说明当前后端没有加载 IoT Controller。需要后端接入并编译启动 `jeecg-module-iot`。
 
-## 上传到 GitHub
-
-首次上传代码：
-
-```bash
-git init
-git add .
-git commit -m "init xingchen wms frontend"
-git branch -M main
-git remote add origin https://github.com/你的用户名/你的仓库名.git
-git push -u origin main
-```
-
-后续更新代码：
-
-```bash
-git status
-git add .
-git commit -m "update frontend"
-git push
-```
-
-## 上传前检查
-
-上传 GitHub 前建议确认：
-
-- 不提交 `node_modules/`
-- 不提交 `dist/`
-- 不提交真实 API Key、数据库密码、服务器密码
-- 不提交本地 IDE 配置，如 `.idea/`
-- 确认 `.gitignore` 已生效
 
 ## 许可证
 
